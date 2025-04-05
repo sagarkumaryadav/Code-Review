@@ -21,7 +21,7 @@ function App() {
   }, [])
 
   async function reviewCode() {
-    const response = await axios.post('https://code-review-two-delta.vercel.app/ai/get-review', { code })
+    const response = await axios.post('https://code-review-9618.onrender.com/ai/get-review', { code })
     setReview(response.data)
   }
 
